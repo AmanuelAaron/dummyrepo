@@ -1,1 +1,15 @@
-
+{
+	"products": [{
+		"ssl_only": false,
+		"name": "Firefox",
+		"locations": {
+			"win64": "/firefox/releases/39.0/win64/:lang/Firefox%20Setup%2039.0.exe",
+			"osx": "/firefox/releases/39.0/mac/:lang/Firefox%2039.0.dmg",
+			"win": "/firefox/releases/39.0/win32/:lang/Firefox%20Setup%2039.0.exe"
+		}
+	}],
+	"aliases": [{
+		"alias": "Firefox-Latest2",
+		"product": "Firefox-63.0"
+	}]
+}
