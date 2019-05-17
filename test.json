@@ -20,6 +20,10 @@
         {
             "name": "alright",
             "ssl_only": true
+        },
+        {
+            "name": "fdsafda",
+            "ssl_only": false
         }
     ],
     "aliases": [
