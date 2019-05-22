@@ -7,12 +7,12 @@ products = []
 aliases = []
 
 for filename in os.listdir('./products'):
-    with open(filename, 'r') as f:
+    with open('./products/' + filename, 'r') as f:
         p = json.load(f)
         products.append(p)
 
 for filename in os.listdir('./aliases'):
-    with open(filename, 'r') as f:
+    with open('./aliases/' + filename, 'r') as f:
         p = json.load(f)
         aliases.append(p)
 
